@@ -128,6 +128,7 @@ class VindiciaFormWrapper extends Component {
             format: hostedFieldDefaults[i].format,
             placeholder: '',
             type: hostedFieldDefaults[i].name,
+            formatinput: hostedFieldDefaults[i].formatinput,
           });
         }
       }
